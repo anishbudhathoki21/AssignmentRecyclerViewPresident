@@ -12,7 +12,8 @@
         <activity android:name=".Activity.MainActivity"></activity>
         <activity android:name=".Activity.DisplaySpinner" />
         <activity android:name=".Activity.FormSpinner" />
-        <activity android:name=".Activity.SecondActivity" />
+        <activity android:name=".Activity.SecondActivity"
+            android:parentActivityName=".Activity.MainActivity"/>
         <activity android:name=".Activity.Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
